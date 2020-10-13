@@ -11,6 +11,7 @@ Then
 `sudo apt-get install -y libssl-dev libffi-dev python3-dev build-essential`
 `sudo apt-get update && apt-get install -y libssl-dev libffi-dev python3-dev build-essential`
 `curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash`
+`exec -l $SHELL`
 or more auto,
 `sudo apt-get update`
 `sudo apt-get install ca-certificates curl apt-transport-https lsb-release gnupg`
