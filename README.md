@@ -4,14 +4,20 @@ One can download the Mexican pre-prepared /dataset from https://drive.google.com
 one the must upload it in a blob storage
 Then
 `sudo apt-get update -y`
+
 `sudo apt-get install gcc python3-dev`
+
 `sudo apt install python3-distutils`
-`sudo apt-get install -y libffi-dev`
-`sudo apt-get install libssl-dev`
+
 `sudo apt-get install -y libssl-dev libffi-dev python3-dev build-essential`
+
 `sudo apt-get update && apt-get install -y libssl-dev libffi-dev python3-dev build-essential`
-`curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash`
+
+`curl -L https://aka.ms/InstallAzureCli | bash`
+
 `exec -l $SHELL`
+
+`az login`
 or more auto,
 `sudo apt-get update`
 `sudo apt-get install ca-certificates curl apt-transport-https lsb-release gnupg`
