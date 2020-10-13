@@ -37,6 +37,7 @@ Installing pip2
 `sudo apt install python-pip`
 
 `pip2 install -r requirements`
-
+if you have a gpu
+`pip2 install tensorflow_gpu==1.4.0`
 Then just run and wait for 
 `python2 senet_train.py`
