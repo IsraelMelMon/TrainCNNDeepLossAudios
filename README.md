@@ -21,6 +21,9 @@ Then
 
 and then execute it by 
 `az storage blob download --account-name nielsendataset --container-name nielsendataset --name dataset.zip --file ~/TrainCNNDeepLossAudios `
+or 
+`az storage blob download --account-name nielsendataset --container-name nielsendataset --name dataset.zip --file /home/nielsenpoc/TrainCNNDeepLossAudios/dataset.zip`
+
 supposing nielsendataset is the name of the storage account and the container, and the name of the zip is dataset.zip, and you already git cloned this repo
 extracting the zip with
 `sudo apt-get install unzip`
