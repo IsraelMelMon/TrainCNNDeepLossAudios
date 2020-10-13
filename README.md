@@ -38,5 +38,7 @@ Installing pip2
 
 `pip2 install -r requirements`
 
+`pip2 install tensorflow==1.4.0`
+
 Then just run and wait for 
 `python2 senet_train.py`
