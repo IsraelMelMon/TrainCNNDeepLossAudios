@@ -30,5 +30,9 @@ extracting the zip with
 
 `unzip dataset.zip`
 
+`sudo apt install python-pip`
+
+`pip2 install -r requirements`
+
 Then just run and wait for 
 `python2 senet_train.py`
