@@ -32,7 +32,7 @@ except getopt.GetoptError:
     sys.exit(2)
 for opt, arg in opts:
     if opt == '-h':
-        print 'Usage: python senet_infer.py -d <datafolder> -l <lossfolder> -o <outfolder>'
+        print('Usage: python senet_infer.py -d <datafolder> -l <lossfolder> -o <outfolder>')
         sys.exit()
     elif opt in ("-d", "--datafolder"):
         datafolder = arg
@@ -40,9 +40,9 @@ for opt, arg in opts:
         modfolder = arg
     elif opt in ("-o", "--outfolder"):
         outfolder = arg
-print 'Data folder is "' + datafolder + '/"'
-print 'Loss model folder is "' + modfolder + '/"'
-print 'Output model folder is "' + outfolder + '/"'
+print('Data folder is "' + datafolder + '/"')
+print('Loss model folder is "' + modfolder + '/"')
+print('Output model folder is "' + outfolder + '/"')
 
 # SET LOSS FUNCTIONS AND PLACEHOLDERS
 with tf.variable_scope(tf.get_variable_scope()):
@@ -77,11 +77,11 @@ config=tf.ConfigProto()
 config.gpu_options.allow_growth=True
 sess=tf.Session(config=config)
 
-print "Config ready"
+print("Config ready")
 
 sess.run(tf.global_variables_initializer())
 
-print "Session initialized"
+print("Session initialized")
 
 # LOAD FEATURE LOSS
 if SE_LOSS_TYPE == "FL":
