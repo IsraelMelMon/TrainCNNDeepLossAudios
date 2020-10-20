@@ -50,3 +50,6 @@ and then for cpu
 for gpu
 
 `conda install -c anaconda tensorflow-gpu=1.4`
+Install azure CLI on Powershell Conda
+`Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'`
+
