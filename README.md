@@ -41,3 +41,10 @@ if you have a gpu
 `pip2 install tensorflow_gpu==1.4.0`
 Then just run and wait for 
 `python2 senet_train.py`
+
+## Run in Windows
+To run in Windows 10+, you can install miniconda with python 3.8 then downgrade to python 3.7 compatible with tensorflow 1.
+`conda install -c anaconda python=3.7`
+and then 
+`conda install -c conda-forge tensorflow=1.14`
+
