@@ -8,15 +8,15 @@ outfolder = "."
 try:
     opts, args = getopt.getopt(sys.argv[1:],"ho:",["outfolder="])
 except getopt.GetoptError:
-    print 'Usage: python senet_infer.py -o <outfolder>'
+    print('Usage: python senet_infer.py -o <outfolder>')
     sys.exit(2)
 for opt, arg in opts:
     if opt == '-h':
-        print 'Usage: python senet_infer.py -o <outfolder>'
+        print('Usage: python senet_infer.py -o <outfolder>')
         sys.exit()
     elif opt in ("-o", "--outfolder"):
         outfolder = arg
-print 'Output model folder is "' + outfolder + '/"'
+print('Output model folder is "' + outfolder + '/"')
 
 # FEATURE LOSS NETWORK PARAMETERS
 LOSS_LAYERS = 14 # NUMBER OF INTERNAL LAYERS
