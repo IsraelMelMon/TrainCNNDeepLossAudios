@@ -43,13 +43,13 @@ Then just run and wait for
 `python2 senet_train.py`
 
 ## Run in Windows
-To run in Windows 10+, you can install miniconda with python 3.8 then downgrade to python 3.6 compatible with tensorflow 1.4
+To run in Windows 10+, you can install miniconda with python 3.8 then downgrade to python 3.6 compatible with tensorflow 1.14
 `conda install -c anaconda python=3.6`
 and then for cpu
-`conda install -c conda-forge tensorflow=1.4`
+`conda install -c conda-forge tensorflow=1.14`
 for gpu
 
-`conda install -c anaconda tensorflow-gpu=1.4`
+`conda install -c anaconda tensorflow-gpu=1.14`
 Install azure CLI on Powershell Conda
 `Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'`
 
