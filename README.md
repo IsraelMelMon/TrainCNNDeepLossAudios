@@ -49,7 +49,8 @@ and then for cpu
 `conda install -c conda-forge tensorflow=1.14`
 for gpu
 
-`conda install -c anaconda tensorflow-gpu=1.14`
+***`conda install -c anaconda tensorflow-gpu=1.14`
+`conda install -c conda-forge tensorflow-gpu=1.14 cudatoolkit=9.0`
 Install azure CLI on Powershell Conda
 `Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'`
 
