@@ -23,7 +23,7 @@ Then on the Azure CLI connecting via ssh to the VM, we install all the necessary
 
 we can then download the zipped dataset with 
 
-`az storage blob download --account-name nielsendataset --container-name nielsendataset --name dataset.zip --file ~/TrainCNNDeepLossAudios/dataset.zip`
+`az storage blob download --account-name testtestno --container-name nielsen --name dataset.zip --file ~/TrainCNNDeepLossAudios/dataset.zip`
 
 supposing nielsendataset is the name of the storage account and the container, and the name of the zip is dataset.zip, and you already git cloned this repo
 and are inside TrainCNNDeepLossAudios
