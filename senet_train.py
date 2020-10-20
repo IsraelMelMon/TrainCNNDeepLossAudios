@@ -28,7 +28,7 @@ outfolder = "."
 try:
     opts, args = getopt.getopt(sys.argv[1:],"hd:l:o:",["ifolder=,lossfolder=,outfolder="])
 except getopt.GetoptError:
-    print 'Usage: python senet_infer.py -d <datafolder> -l <lossfolder> -o <outfolder>'
+    print('Usage: python senet_infer.py -d <datafolder> -l <lossfolder> -o <outfolder>')
     sys.exit(2)
 for opt, arg in opts:
     if opt == '-h':
