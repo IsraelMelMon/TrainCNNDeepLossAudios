@@ -54,5 +54,5 @@ for gpu
 Install azure CLI on Powershell Conda
 `Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'`
 
-## NOTE: Audio files should be named the same
+## NOTE: Audio files should be named the same when training and comparing noisy with clean
 
